@@ -1,7 +1,9 @@
 # Standard MDWBM
-Filename: MDWBM_#v_#u_#f_ID.txt
+### Filename: 
 
-The content of the instance file:
+- MDWBM_#v_#u_#f_ID.txt
+
+### The content of the instance file:
 
 #v #u #f lambda_min lambda_max b ID
 
@@ -15,6 +17,10 @@ FOR f in F:
 
 &nbsp; &nbsp; &nbsp; &nbsp; list(cost_f_gf_u for u in U)
 
+&nbsp; &nbsp; &nbsp; &nbsp; ...
+
 FOR v in V:
 
 &nbsp; &nbsp; list(gf_v_f for f in F)
+
+&nbsp; &nbsp; ...
