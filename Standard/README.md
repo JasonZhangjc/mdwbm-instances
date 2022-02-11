@@ -9,9 +9,9 @@ lambda_1, ..., lambda_#f
 
 number_of_feature_values_1, ..., number_of_feature_values_#f
 
-for f in F:
-&nbsp for gf in number_of_feature_values_f
-&nbsp &nbsp	list(cost_f_gf_u for u in U)
+FOR f in F:
+&nbsp; &nbsp; for gf in number_of_feature_values_f:
+&nbsp; &nbsp; &nbsp; &nbsp; list(cost_f_gf_u for u in U)
 
-for v in V:
-&nbsp list(gf_v_f for f in F)
+FOR v in V:
+&nbsp; &nbsp; list(gf_v_f for f in F)
